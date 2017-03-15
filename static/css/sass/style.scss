@@ -1,1 +1,50 @@
 @import "base";
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    header {
+        #nav {
+            background-color: $bleu;
+            border: none;
+            a {
+                color: white;
+            }
+            img {
+                width: 45%;
+                margin: 0.3em;
+            }
+            img[alt="petitportrait"] {
+                @include img
+            }
+        }
+    }
+    .row {
+        background-color: $bg;
+        main {
+            background-color: white;
+            border: 1px solid $border;
+            border-radius: 0.2em;
+            .input-group {
+                margin: 0.5em;
+            }
+            article {
+                padding: 0.5em;
+                h4 {
+                    @include titreh4;
+                }
+                img[alt="petitportrait"] {
+                    @include img
+                }
+                .center {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .photosmain {
+                        margin: 2em;
+                    }
+                }
+            }
+
+        }
+    }
+}

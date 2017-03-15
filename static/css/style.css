@@ -1,3 +1,53 @@
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body header #nav {
+  background-color: #3097d1;
+  border: none;
+}
+body header #nav a {
+  color: white;
+}
+body header #nav img {
+  width: 45%;
+  margin: 0.3em;
+}
+body header #nav img[alt="petitportrait"] {
+  border-radius: 50%;
+  width: 4em;
+  float: left;
+  margin: 0.6em;
+}
+body .row {
+  background-color: #f5f8fa;
+}
+body .row main {
+  background-color: white;
+  border: 1px solid #d3e0e9;
+  border-radius: 0.2em;
+}
+body .row main .input-group {
+  margin: 0.5em;
+}
+body .row main article {
+  padding: 0.5em;
+}
+body .row main article h4 {
+  font-weight: bold;
+}
+body .row main article img[alt="petitportrait"] {
+  border-radius: 50%;
+  width: 4em;
+  float: left;
+  margin: 0.6em;
+}
+body .row main article .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .row main article .center .photosmain {
+  margin: 2em;
+}
 
 /*# sourceMappingURL=style.css.map */

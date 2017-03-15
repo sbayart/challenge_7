@@ -1,2 +1,15 @@
-$b: #3097d1;
-$t: #1e3948;
+$bleu: #3097d1;
+$texte: #1e3948;
+$bg: #f5f8fa;
+$border: #d3e0e9;
+
+
+@mixin titreh4 {
+    font-weight: bold;
+}
+@mixin img {
+    border-radius: 50%;
+    width: 4em;
+    float: left;
+    margin: 0.6em;
+}
