@@ -21,30 +21,69 @@ body {
     .row {
         background-color: $bg;
         main {
-            background-color: white;
-            border: 1px solid $border;
-            border-radius: 0.2em;
+            @include container;
             .input-group {
                 margin: 0.5em;
             }
             article {
                 padding: 0.5em;
+                border-bottom: 1px solid $border;
+
                 h4 {
                     @include titreh4;
                 }
                 img[alt="petitportrait"] {
-                    @include img
+                    @include img;
                 }
                 .center {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     .photosmain {
-                        margin: 2em;
+                        margin: 0.5em;
                     }
                 }
             }
+        }
+        nav {
+            .centree {
+                @include container;
+                padding: 0.5em;
+                h3 {
+                    @include titreh4;
+                }
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img[alt="paysage"] {
+                    margin: 1em;
 
+                }
+                img[alt="portrait"] {
+                    border-radius: 50%;
+                    width: 6em;
+                    margin: 0.6em;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            section {
+                @include container;
+                padding: 0.5em;
+                h4 {
+                    @include titreh4;
+                    span {
+                        color: $bleu;
+                        font-size: 0.6em;
+                    }
+                }
+                ul {
+                    li {
+                    list-style: none;
+                    }
+                }
+            }
         }
     }
 }

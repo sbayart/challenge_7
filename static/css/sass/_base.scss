@@ -3,6 +3,12 @@ $texte: #1e3948;
 $bg: #f5f8fa;
 $border: #d3e0e9;
 
+@mixin container {
+    background-color: white;
+    border: 1px solid $border;
+    border-radius: 0.2em;
+    margin: 0.5em;
+}
 
 @mixin titreh4 {
     font-weight: bold;
@@ -10,6 +16,5 @@ $border: #d3e0e9;
 @mixin img {
     border-radius: 50%;
     width: 4em;
-    float: left;
     margin: 0.6em;
 }
