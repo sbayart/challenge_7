@@ -1,0 +1,18 @@
+{
+  "name": "challenge_7",
+  "authors": [
+    "solene <solenantoine@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ]
+}
